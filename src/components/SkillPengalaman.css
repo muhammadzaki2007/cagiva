@@ -1,0 +1,77 @@
+/* src/components/SkillPengalaman.css */
+
+.skill-pengalaman-container {
+    background-color: #fdbaba;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .skill-section, .pengalaman-section {
+    width: 45%;
+  }
+  
+  .skill-section h3, .pengalaman-section h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  
+  .skill-section p {
+    margin-bottom: 10px;
+  }
+  
+  .skill-section ul, .pengalaman-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .pengalaman-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    width: 100%;
+    height: 8px;
+    margin: 5px 0 15px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .progress.html {
+    width: 90%;
+    background-color: #f44336;
+  }
+  
+  .progress.css {
+    width: 80%;
+    background-color: #2196f3;
+  }
+  
+  .progress.js {
+    width: 70%;
+    background-color: #ffeb3b;
+  }
+  

@@ -1,0 +1,48 @@
+/* AboutMe.css */
+
+.about-container {
+    padding: 40px;
+    background-color:  #f37979;
+  }
+  
+  .biodata-section, .education-section {
+    background-color: #fdbaba;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(184, 124, 124, 0.452);
+    border-radius: 10px;
+  }
+  
+  .biodata-table td {
+    padding: 12px;
+    border-bottom: 1px solid rgb(253, 253, 253);
+  }
+  
+  .biodata-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .biodata-table td:first-child {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .biodata-table td:last-child {
+    text-align: left;
+  }
+  
